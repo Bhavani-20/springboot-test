@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: springboot
-        image: app4/bhavani-minikube:8081
+        image: app4/durga:8081:8081
         ports:
         - containerPort: 8081
         resources:
